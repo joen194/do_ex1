@@ -5,3 +5,5 @@ Vagrant.configure(2) do |config|
   config.vm.provision "shell", inline: "echo hello"
   config.vm.provision "shell", path: "provision_nginx.sh"
 end
+
+#testing
